@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.flex_container{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: brown;
+}
+.flex_foto{
+    background-color: gold;
+    width: 400px;
+    height: 400px;
+}
+.flex_datos{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+.nombre
+{
+    font-family: 'Alexandria', sans-serif;
+    font-size: 300px; 
+}
+
+
+
+/* Comienzo de style CV */
+
+/*#contacs {
+    font-family: 'Alexandria', sans-serif;
+}
+*/
+
+
+/*.contact {
+    background-color: blue;
+    width: 500px;
+    height: 300px;
+}
+
+#email{
+    background-color: rebeccapurple;
+    width: 300px;
+    height: 300px;
+}
+/* 

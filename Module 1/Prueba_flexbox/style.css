@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    font-size: 20px;
+}
+
+body{
+    background-image: url(./ImagenesPlanetas/Andromeda.jpg);
+}
+.list-planets{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;    
+    padding: 16px;
+}
+
+.container_planets{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    background-color: white;
+    font-size: 2rem;
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    width: 12rem;
+}
+.title h2{
+    display: flex;
+    justify-content: center;
+}
+.planet{
+    height: 350px;
+    width: 250px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 15px;
+
+}
+#earth-t{
+    background-color: #D5F5E3;
+}
+img{
+    width: 15rem;
+    height: 15rem;
+}
+#mercuri-t{
+    background-color:#ABEBC6;
+}
+#venus-t{
+    background-color: #82E0AA;
+}
+#marte-t{
+    background-color:#58D68D;
+}
+#saturno-t{
+    background-color: #2ECC71;
+}
+#urano-t{
+    background-color: #28B463;
+}
+#neptuno-t{
+    background-color: #239B56;
+}
+#jupiter-t{
+    background-color: #1D8348;
+}
